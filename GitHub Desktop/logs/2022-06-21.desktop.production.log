@@ -1,0 +1,33 @@
+2022-06-21T18:59:11.401Z - info: [ui] [AppStore] loading 3 repositories from store
+2022-06-21T18:59:11.407Z - info: [ui] [AppStore] found account: oddskj (oddskj)
+2022-06-21T18:59:12.023Z - info: [ui] Subscribed 'oddskj' to Alive channel
+2022-06-21T18:59:12.201Z - info: [ui] launching: 3.0.1-linux1 (Linux 5.18.5-200.fc36.x86_64)
+2022-06-21T18:59:12.203Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-06-21T18:59:12.566Z - info: [ui] Stats reported.
+2022-06-21T18:59:31.355Z - info: [ui] [Timing] Action 'create commit' for 'oddskj/PythonTest' took 0.255s
+2022-06-21T18:59:37.607Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PythonTest - oddskj (has token)
+2022-06-21T18:59:38.817Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 1.190s)
+2022-06-21T19:15:56.446Z - warn: [ui] failed fetching open PRs for repository oddskj/PythonTest
+TypeError: Failed to fetch
+    at Ct (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at un.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at un.fetchAll (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at un.fetchAllOpenPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at TN.constructor.fetchAndStoreOpenPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at TN.constructor.fetchAndStorePullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2022-06-21T19:15:56.448Z - error: [ui] Error refreshing pull requests for 'oddskj/PythonTest'
+TypeError: Failed to fetch
+    at Ct (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at un.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at un.fetchAll (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at un.fetchAllOpenPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at TN.constructor.fetchAndStoreOpenPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at TN.constructor.fetchAndStorePullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2022-06-21T21:01:09.952Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.9s of which 0.0s paused, total 0.9s
+2022-06-21T21:58:01.237Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.274s)
+2022-06-21T22:09:02.325Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.8s of which 0.0s paused, total 0.8s
+2022-06-21T22:09:13.408Z - info: [ui] [Timing] Action 'create commit' for 'oddskj/PythonTest' took 0.230s
+2022-06-21T22:09:17.166Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PythonTest - oddskj (has token)
+2022-06-21T22:09:18.356Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 1.159s)

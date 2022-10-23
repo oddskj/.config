@@ -1,0 +1,244 @@
+2022-10-23T21:30:15.614Z - error: [main] Error looking for toast activator CLSID in shortcut /home/oddskj/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/GitHub, Inc/GitHub Desktop.lnk
+TypeError: i.shell.readShortcutLink is not a function
+    at Q (/home/oddskj/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:38:29)
+    at /home/oddskj/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:26:33
+    at /home/oddskj/webpack:/[name]/app/src/main-process/notifications.ts:23:32
+    at /home/oddskj/webpack:/[name]/app/src/main-process/main.ts:719:55
+    at Object.<anonymous> (/home/oddskj/webpack:/[name]/app/src/main-process/main.ts:719:55)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-10-23T21:30:15.630Z - error: [main] Error looking for toast activator CLSID in shortcut /home/oddskj/Desktop/GitHub Desktop.lnk
+TypeError: i.shell.readShortcutLink is not a function
+    at Q (/home/oddskj/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:38:29)
+    at /home/oddskj/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:26:33
+    at /home/oddskj/webpack:/[name]/app/src/main-process/notifications.ts:23:32
+    at /home/oddskj/webpack:/[name]/app/src/main-process/main.ts:719:55
+    at Object.<anonymous> (/home/oddskj/webpack:/[name]/app/src/main-process/main.ts:719:55)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-10-23T21:30:15.630Z - error: [main] Toast activator CLSID not found in any of the shortucts. Falling back to known CLSIDs.
+2022-10-23T21:30:15.630Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-10-23T21:30:16.068Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-10-23T21:30:16.774Z - error: [ui] Could not get Alive web socket URL for 'oddskj'
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getAliveWebSocketURL (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:724:30)
+    at Object.createSessionForAccount (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:161:32)
+    at Object.subscribeToAccount (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:218:40)
+    at Object._subscribeToAccounts (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:138:20)
+    at subscribeToAccounts (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:117:44)
+2022-10-23T21:30:16.780Z - info: [ui] [AppStore] loading 3 repositories from store
+2022-10-23T21:30:16.780Z - info: [ui] [AppStore] found account: oddskj (oddskj)
+2022-10-23T21:30:16.824Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2022-10-23T21:30:16.826Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchProtectedBranches (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1347:35)
+    at Vn.updateBranchProtectionsFromAPI (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:3735:32)
+    at Vn._selectRepository (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:1592:10)
+2022-10-23T21:30:16.838Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-10-23T21:30:16.839Z - error: [ui] Could not get Alive web socket URL for 'oddskj'
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getAliveWebSocketURL (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:724:30)
+    at Object.createSessionForAccount (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:161:32)
+    at Object.subscribeToAccount (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:218:40)
+    at Object._subscribeToAccounts (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:138:20)
+    at Object.subscribeToAccounts (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:117:44)
+2022-10-23T21:30:16.842Z - warn: [ui] fetchRepository: an error occurred for 'oddskj/PythonTest'
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at Vn.repositoryWithRefreshedGitHubRepository (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:3691:31)
+2022-10-23T21:30:16.846Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2022-10-23T21:30:16.866Z - warn: [ui] fetchIssues: failed for repository oddskj/PythonTest
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchIssues (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:922:33)
+    at WB.constructor.refreshIssues (/home/oddskj/webpack:/[name]/app/src/lib/stores/issues-store.ts:81:30)
+    at Vn._refreshIssues (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:1704:5)
+2022-10-23T21:30:16.866Z - warn: [ui] Unable to fetch issues for oddskj/PythonTest
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchIssues (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:922:33)
+    at WB.constructor.refreshIssues (/home/oddskj/webpack:/[name]/app/src/lib/stores/issues-store.ts:81:30)
+    at Vn._refreshIssues (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:1704:5)
+2022-10-23T21:30:16.867Z - warn: [ui] fetchMentionables: failed for oddskj/PythonTest
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchMentionables (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1469:35)
+    at UB.constructor.updateMentionables (/home/oddskj/webpack:/[name]/app/src/lib/stores/github-user-store.ts:90:32)
+2022-10-23T21:30:16.886Z - warn: [ui] Error refreshing account 'oddskj'
+Error: Cannot update an account which doesn't have a token: oddskj
+    at Xe (/home/oddskj/webpack:/[name]/app/src/lib/fatal-error.ts:3:9)
+    at /home/oddskj/webpack:/[name]/app/src/lib/stores/accounts-store.ts:214:12
+    at Vn.tryUpdateAccount (/home/oddskj/webpack:/[name]/app/src/lib/stores/accounts-store.ts:134:20)
+    at /home/oddskj/webpack:/[name]/app/src/lib/stores/accounts-store.ts:114:37
+    at Array.map (<anonymous>)
+    at Vn.refresh (/home/oddskj/webpack:/[name]/app/src/lib/stores/accounts-store.ts:114:21)
+    at Vn.loadInitialState (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:1940:24)
+2022-10-23T21:30:17.084Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-10-23T21:30:17.085Z - error: [ui] Could not get Alive web socket URL for 'oddskj'
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getAliveWebSocketURL (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:724:30)
+    at Object.createSessionForAccount (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:161:32)
+    at Object.subscribeToAccount (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:218:40)
+    at Object._subscribeToAccounts (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:138:20)
+    at subscribeToAccounts (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:117:44)
+2022-10-23T21:30:17.178Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-10-23T21:30:17.180Z - error: [ui] Could not get Alive web socket URL for 'oddskj'
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getAliveWebSocketURL (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:724:30)
+    at Object.createSessionForAccount (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:161:32)
+    at Object.subscribeToAccount (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:218:40)
+    at Object._subscribeToAccounts (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:138:20)
+    at subscribeToAccounts (/home/oddskj/webpack:/[name]/app/src/lib/stores/alive-store.ts:117:44)
+2022-10-23T21:30:17.225Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2022-10-23T21:30:17.226Z - warn: [ui] Alive channel request failed: TypeError: Failed to fetch
+2022-10-23T21:30:17.713Z - warn: [ui] failed fetching open PRs for repository oddskj/PythonTest
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchAllOpenPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at VB.constructor.fetchAndStoreOpenPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at VB.constructor.fetchAndStorePullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2022-10-23T21:30:17.714Z - error: [ui] Error refreshing pull requests for 'oddskj/PythonTest'
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchAllOpenPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at VB.constructor.fetchAndStoreOpenPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at VB.constructor.fetchAndStorePullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/oddskj/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2022-10-23T21:30:17.721Z - info: [ui] launching: 3.0.5-linux1 (Linux 5.19.16-200.fc36.x86_64)
+2022-10-23T21:30:17.722Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-10-23T21:30:17.775Z - error: [ui] Error reporting stats:
+TypeError: Failed to fetch
+    at jB.constructor.post (/home/oddskj/webpack:/[name]/app/src/lib/stats/stats-store.ts:1855:12)
+    at jB.constructor.reportStats (/home/oddskj/webpack:/[name]/app/src/lib/stats/stats-store.ts:472:35)
+2022-10-23T21:30:23.044Z - error: [ui] `git -c credential.helper= fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/oddskj/PythonTest.git/': Could not resolve host: github.com
+
+2022-10-23T21:30:23.098Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchPushControl (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1319:35)
+    at Vn.refreshBranchProtectionState (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:1092:37)
+    at /home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:4633:20
+    at Vn.withPushPullFetch (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:4150:5)
+    at Vn.performFetch (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:4584:5)
+    at vo.performAndScheduleFetch (/home/oddskj/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
+2022-10-23T21:30:23.323Z - warn: [ui] getFetchPollInterval: failed for oddskj/PythonTest
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getFetchPollInterval (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1439:35)
+    at vo.getFetchInterval (/home/oddskj/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:136:38)
+    at vo.performAndScheduleFetch (/home/oddskj/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:117:33)
+2022-10-23T21:30:47.954Z - warn: [ui] fetchRepository: an error occurred for 'oddskj/Git-Test'
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/oddskj/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at Sa.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:3154:11)
+    at Sa.refreshAllRepositories (/home/oddskj/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2022-10-23T21:30:47.961Z - warn: [ui] fetchRepository: an error occurred for 'oddskj/Git-Test'
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/oddskj/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:48:28
+    at Sa.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:3154:11)
+    at Sa.refreshAllRepositories (/home/oddskj/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2022-10-23T21:30:47.962Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Git-Test - oddskj (empty token)
+2022-10-23T21:30:48.000Z - error: [ui] `git -c credential.helper= fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/oddskj/Git-Test.git/': Could not resolve host: github.com
+
+2022-10-23T21:30:48.363Z - warn: [ui] fetchRepository: an error occurred for 'oddskj/HevSenkPult'
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/oddskj/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at Sa.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:3154:11)
+    at Sa.refreshAllRepositories (/home/oddskj/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2022-10-23T21:30:48.370Z - warn: [ui] fetchRepository: an error occurred for 'oddskj/HevSenkPult'
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchRepository (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:742:35)
+    at /home/oddskj/webpack:/[name]/app/src/lib/infer-last-push-for-repository.ts:48:28
+    at Sa.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:3154:11)
+    at Sa.refreshAllRepositories (/home/oddskj/webpack:/[name]/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2022-10-23T21:30:48.370Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: HevSenkPult - oddskj (empty token)
+2022-10-23T21:30:48.409Z - error: [ui] `git -c credential.helper= fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/oddskj/HevSenkPult.git/': Could not resolve host: github.com
+
+2022-10-23T21:30:48.421Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.5s of which 0.0s paused, total 0.5s
+2022-10-23T21:30:57.753Z - info: [ui] [AppStore] adding repository at /home/oddskj/.config/dotfiles to store
+2022-10-23T21:31:02.934Z - warn: [ui] fetchOrgs: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchOrgs (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:843:25)
+    at EM.fetchOrgs (/home/oddskj/webpack:/[name]/app/src/ui/publish-repository/publish-repository.tsx:59:31)
+    at EM.componentWillMount (/home/oddskj/webpack:/[name]/app/src/ui/publish-repository/publish-repository.tsx:46:10)
+    at di (/home/oddskj/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:135:85)
+    at Eo (/home/oddskj/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:167:161)
+    at /home/oddskj/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:180:30
+    at Ls (/home/oddskj/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:232:22)
+2022-10-23T21:31:07.353Z - error: [ui] createRepository: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+    at Tt (/home/oddskj/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.createRepository (/home/oddskj/webpack:/[name]/app/src/lib/api.ts:859:35)
+    at Vn._publishRepository (/home/oddskj/webpack:/[name]/app/src/lib/stores/app-store.ts:4315:37)
+    at Object.publishRepository (/home/oddskj/webpack:/[name]/app/src/ui/dispatcher/dispatcher.ts:720:26)
+    at Object.publishRepository [as onSubmit] (/home/oddskj/webpack:/[name]/app/src/ui/publish-repository/publish.tsx:293:35)
+    at onSubmit (/home/oddskj/webpack:/[name]/app/src/ui/dialog/dialog.tsx:560:18)
+    at Object.l (/home/oddskj/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:14:428)
+    at f (/home/oddskj/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:15:118)
+    at /home/oddskj/webpack:/[name]/app/node_modules/react-dom/cjs/react-dom.production.min.js:15:172
+2022-10-23T21:31:26.690Z - warn: [ui] fetchAll: 'user/orgs' returned a 401
+2022-10-23T21:31:54.024Z - warn: [ui] fetchAll: 'user/orgs' returned a 401
+2022-10-23T21:32:56.386Z - warn: [ui] fetchAll: 'user/orgs' returned a 401
+2022-10-23T21:34:25.242Z - info: [ui] [AppStore] removing account oddskj (oddskj) from store
+2022-10-23T21:34:27.452Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-10-23T21:34:27.458Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=78dcace5-7bb6-4175-ac15-7dd9bfb086c4
+2022-10-23T21:34:39.801Z - info: [main] Received possible protocol arguments: 4
+2022-10-23T21:34:39.803Z - info: [main] Processing protocol url
+2022-10-23T21:34:39.817Z - info: [ui] [Dispatcher] requesting authenticated user
+2022-10-23T21:34:40.556Z - info: [ui] [SignInStore] account resolved
+2022-10-23T21:34:40.556Z - info: [ui] [AppStore] adding account oddskj (oddskj) to store
+2022-10-23T21:34:40.949Z - info: [ui] Subscribed 'oddskj' to Alive channel
+2022-10-23T21:34:49.309Z - info: [ui] [BranchPruner] No branches to prune.
+2022-10-23T21:36:18.175Z - info: [ui] [BranchPruner] No branches to prune.
+2022-10-23T21:37:55.707Z - info: [ui] [AppStore] adding repository at /home/oddskj/.config to store

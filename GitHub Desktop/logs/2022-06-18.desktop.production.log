@@ -1,0 +1,39 @@
+2022-06-18T13:53:47.117Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-06-18T13:53:47.188Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-06-18T13:53:47.193Z - info: [ui] launching: 3.0.1-linux1 (Linux 5.18.5-200.fc36.x86_64)
+2022-06-18T13:53:47.199Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-06-18T13:53:47.251Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-06-18T13:53:47.253Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-06-18T13:53:47.655Z - info: [ui] Opt in reported.
+2022-06-18T13:53:49.842Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2022-06-18T13:53:49.844Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-06-18T13:53:49.849Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=b11db38b-05b4-4783-87fe-8ea737784e0c
+2022-06-18T13:53:49.851Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2022-06-18T13:53:52.412Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-06-18T13:53:54.111Z - info: [main] Received possible protocol arguments: 4
+2022-06-18T13:53:54.112Z - info: [main] Processing protocol url
+2022-06-18T13:53:54.113Z - info: [ui] [Dispatcher] requesting authenticated user
+2022-06-18T13:53:54.121Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-06-18T13:53:54.951Z - info: [ui] [SignInStore] account resolved
+2022-06-18T13:53:54.952Z - info: [ui] [AppStore] adding account oddskj (oddskj) to store
+2022-06-18T13:53:54.955Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2022-06-18T13:53:55.026Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-06-18T13:53:55.342Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-06-18T13:53:55.601Z - info: [ui] Subscribed 'oddskj' to Alive channel
+2022-06-18T13:53:55.767Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-06-18T13:54:19.838Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/oddskj/Git-Test.git - oddskj (has token)
+2022-06-18T13:54:20.807Z - info: [ui] [AppStore] adding repository at /home/oddskj/Documents/GitHub/Git-Test to store
+2022-06-18T13:54:21.561Z - info: [ui] [BranchPruner] No branches to prune.
+2022-06-18T13:54:29.870Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/oddskj/HevSenkPult.git - oddskj (has token)
+2022-06-18T13:54:31.806Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 -c init.defaultBranch=main clone --recursive --progress -- https://github.com/oddskj/HevSenkPult.git /home/oddskj/Documents/GitHub/HevSenkPult (took 1.923s)
+2022-06-18T13:54:31.820Z - info: [ui] [AppStore] adding repository at /home/oddskj/Documents/GitHub/HevSenkPult to store
+2022-06-18T13:54:32.024Z - info: [ui] [BranchPruner] Last prune took place 11 seconds ago - skipping
+2022-06-18T13:54:36.338Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: HevSenkPult - oddskj (has token)
+2022-06-18T13:54:36.814Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.7s of which 0.0s paused, total 0.7s
+2022-06-18T13:54:42.314Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/oddskj/PythonTest.git - oddskj (has token)
+2022-06-18T13:54:49.077Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 -c init.defaultBranch=master clone --recursive --progress -- https://github.com/oddskj/PythonTest.git /home/oddskj/Documents/GitHub/PythonTest (took 6.734s)
+2022-06-18T13:54:49.091Z - info: [ui] [AppStore] adding repository at /home/oddskj/Documents/GitHub/PythonTest to store
+2022-06-18T13:54:49.181Z - info: [ui] [BranchPruner] Last prune took place 17 seconds ago - skipping
+2022-06-18T13:54:49.712Z - info: [ui] [BranchPruner] No branches to prune.
+2022-06-18T13:54:55.959Z - info: [ui] [BranchPruner] Last prune took place 7 seconds ago - skipping
+2022-06-18T13:54:59.352Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: PythonTest - oddskj (has token)
